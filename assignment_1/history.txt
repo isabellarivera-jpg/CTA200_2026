@@ -1,0 +1,170 @@
+    1  mkdir
+    2  mkdir cta200
+    3  ls
+    4  find Music/
+    5  cd~
+    6  cd ~
+    7  ls -ld
+    8  rmdir cta200
+    9  ls
+   10  cd /mnt
+   11  cd /mnt/scratch/irivera
+   12  cd /mnt/scratch/irivera
+   13  cd /mnt/scratch-lustre/irivera
+   14  ls
+   15  pwd
+   16  git clone https://github.com/CITA/CTA200H.git
+   17  exitr
+   18  rxit
+   19  exit
+   20  git clone https://github.com/CITA/CTA200H.git
+   21  rm fileread.oop
+   22  rm fileread.cpp
+   23  git pull
+   24  git clone https://github.com/CITA/CTA200H.git
+   25  git pull
+   26  git clone https://github.com/isabellarivera-jpg/CTA200H.git
+   27  ls
+   28  cd CTA200H
+   29  touch cita
+   30  git push cita
+   31  git add cita.cpp
+   32  git add cita
+   33  git commit -m "hello"
+   34  git push
+   35  /cita/local/bin/passwd\
+   36  /cita/local/bin/passwd
+   37  git push
+   38  cd CTA200H
+   39  ls
+   40  git status
+   41  git add .
+   42  git commit -m "Update files"
+   43  git push
+   44  git remote -v
+   45  git remote set-url origin https://github.com/isabellarivera-jpg/CTA200H.git
+   46  git push
+   47  /fs/lustre/scratch/irivera
+   48  nano assignment_1.md
+   49  ssh -D 2400 irivera@shrimp.cita.utoronto.ca
+   50  ls
+   51  git push
+   52  ls
+   53  cd CTA200H/
+   54  cd CTA200H
+   55  git status
+   56  git add .
+   57  git commit -m "Update files"
+   58  git push
+   59  /fs/lustre/scratch/irivera
+   60  nano assignment_1
+   61  /fs/lustre/scratch/irivera
+   62  ls
+   63  mkdir CTA_200_2026
+   64  pwd
+   65  rmdir CTA_200_2026
+   66  ls
+   67  cd /fs/lustre/scratch/irivera
+   68  pwd
+   69  mkdir CTA200_2026
+   70  pwd
+   71  cd CTA200_2026
+   72  pwd
+   73  mkdir assignment_1
+   74  pwd
+   75  ls
+   76  touch README.md
+   77  vi
+   78  vi README.md
+   79  cd /fs/lustre/scratch/$USER
+   80  pwd
+   81  ls
+   82  cd CTA200_2026
+   83  ls
+   84  cat README.md
+   85  find /home/murray -name "Hello_world.c" -o -name "Hello_world.py" 2>/dev/null
+   86  echo ~murray
+   87  find ~murray -name "Hello_world.c" -o -name "Hello_world.py" 2>/dev/null
+   88  find ~murray \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   89  find /cita/h/home/murray \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   90  find /cita \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   91  Get-ChildItem -Path "C:\Users\murray\Documents" -Recurse -Force -ErrorAction SilentlyContinue
+   92  cd /fs/lustre/scratch/murray
+   93  touch Hello_world.c
+   94  cd /fs/lustre/scratch/irivera
+   95  touch Hello_world.c
+   96  ls
+   97  exit
+   98  cd /fs/lustre/scratch/irivera
+   99  ssh -L 1234:localhost:1234 
+  100  ssh -L 0629:localhost:0629 
+  101  ssh -L 0629:localhost:0629 irivera@gw.cita.utoronto.ca
+  102  exit
+  103  ssh -L 0629:localhost:0629 cosmo7
+  104  ssh -L 0629:localhost:0629 cosmo6
+  105  ssh -L 0629:localhost:0629 cosmo7
+  106  exit
+  107  module load python/3.10.2
+  108  jupyter notebook --port=2005 --no-browser
+  109  /fs/lustre/scratch/irivera
+  110  pwd
+  111  /fs/lustre/scratch/irivera
+  112  exit
+  113  /fs/lustre/scratch/irivera
+  114  exit
+  115  ssh -L 2005:localhost:2005 cosmo7
+  116  ssh -D 2400 irivera@cosmo7.cita.utoronto.ca
+  117  exit
+  118  cd Desktop
+  119  pwd
+  120  cd CTA200_2026
+  121  cd /fs/lustre/scratch/irivera
+  122  pwd
+  123  ls
+  124  cd CTA_2026
+  125  ls
+  126  mkdir CTA200_2026
+  127  mkdir assignment_1
+  128  touch README.md
+  129  vi README.md
+  130  pwd
+  131  ls
+  132  cd CTA200_2026
+  133  ls
+  134  pwd
+  135  mv ~/Desktop/assignment_1 ~/Desktop/CTA200_2026/
+  136  mv ~/Desktop/README.md ~/Desktop/CTA200_2026/assignment_1/
+  137  cd ~/Desktop/CTA200_2026/assignment_1
+  138  ls
+  139  pwd
+  140  ls
+  141  touch Hello_world.c
+  142  touch Hello_world.py
+  143  mv Hello_world.c Hello_world_Rivera.c
+  144  mv Hello_world.py Hello_world_Rivera.py
+  145  ls
+  146  module load gcc
+  147  gcc Hello_world_Rivera.c -o Hello_world.x
+  148  nano Hello_world_Rivera.c
+  149  gcc Hello_world_Rivera.c -o Hello_world.x
+  150  ./Hello_world.x
+  151  python3 Hello_world_Rivera.py
+  152  nano Hello_world.x
+  153  nano Hello_world_Rivera.py
+  154  python3 Hello_world_Rivera.py
+  155  vi Hello_world_Rivera.py
+  156  vi Hello_world_Rivera.c
+  157  vi Hello_world_Rivera.py
+  158  python3 Hello_world_Rivera.py
+  159  vi Hello_world_Rivera.c
+  160  python3 Hello_world_Rivera.py
+  161  vi Hello_world_Rivera.py
+  162  python3 Hello_world_Rivera.py
+  163  ./Hello_world.x
+  164  gcc Hello_world_Rivera.c -o Hello_world.x
+  165  ./Hello_world.x
+  166  ./Hello_world.x > output_c.txt
+  167  python3 Hello_world_Rivera.py > output_python.txt
+  168  cat output_c.txt 
+  169  cat output_python.txt 
+  170  history > history.txt

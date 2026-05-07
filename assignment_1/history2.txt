@@ -1,0 +1,341 @@
+    1  mkdir
+    2  mkdir cta200
+    3  ls
+    4  find Music/
+    5  cd~
+    6  cd ~
+    7  ls -ld
+    8  rmdir cta200
+    9  ls
+   10  cd /mnt
+   11  cd /mnt/scratch/irivera
+   12  cd /mnt/scratch/irivera
+   13  cd /mnt/scratch-lustre/irivera
+   14  ls
+   15  pwd
+   16  git clone https://github.com/CITA/CTA200H.git
+   17  exitr
+   18  rxit
+   19  exit
+   20  git clone https://github.com/CITA/CTA200H.git
+   21  rm fileread.oop
+   22  rm fileread.cpp
+   23  git pull
+   24  git clone https://github.com/CITA/CTA200H.git
+   25  git pull
+   26  git clone https://github.com/isabellarivera-jpg/CTA200H.git
+   27  ls
+   28  cd CTA200H
+   29  touch cita
+   30  git push cita
+   31  git add cita.cpp
+   32  git add cita
+   33  git commit -m "hello"
+   34  git push
+   35  /cita/local/bin/passwd\
+   36  /cita/local/bin/passwd
+   37  git push
+   38  cd CTA200H
+   39  ls
+   40  git status
+   41  git add .
+   42  git commit -m "Update files"
+   43  git push
+   44  git remote -v
+   45  git remote set-url origin https://github.com/isabellarivera-jpg/CTA200H.git
+   46  git push
+   47  /fs/lustre/scratch/irivera
+   48  nano assignment_1.md
+   49  ssh -D 2400 irivera@shrimp.cita.utoronto.ca
+   50  ls
+   51  git push
+   52  ls
+   53  cd CTA200H/
+   54  cd CTA200H
+   55  git status
+   56  git add .
+   57  git commit -m "Update files"
+   58  git push
+   59  /fs/lustre/scratch/irivera
+   60  nano assignment_1
+   61  /fs/lustre/scratch/irivera
+   62  ls
+   63  mkdir CTA_200_2026
+   64  pwd
+   65  rmdir CTA_200_2026
+   66  ls
+   67  cd /fs/lustre/scratch/irivera
+   68  pwd
+   69  mkdir CTA200_2026
+   70  pwd
+   71  cd CTA200_2026
+   72  pwd
+   73  mkdir assignment_1
+   74  pwd
+   75  ls
+   76  touch README.md
+   77  vi
+   78  vi README.md
+   79  cd /fs/lustre/scratch/$USER
+   80  pwd
+   81  ls
+   82  cd CTA200_2026
+   83  ls
+   84  cat README.md
+   85  find /home/murray -name "Hello_world.c" -o -name "Hello_world.py" 2>/dev/null
+   86  echo ~murray
+   87  find ~murray -name "Hello_world.c" -o -name "Hello_world.py" 2>/dev/null
+   88  find ~murray \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   89  find /cita/h/home/murray \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   90  find /cita \( -name "Hello_world.c" -o -name "Hello_world.py" \) 2>/dev/null
+   91  Get-ChildItem -Path "C:\Users\murray\Documents" -Recurse -Force -ErrorAction SilentlyContinue
+   92  cd /fs/lustre/scratch/murray
+   93  touch Hello_world.c
+   94  cd /fs/lustre/scratch/irivera
+   95  touch Hello_world.c
+   96  ls
+   97  exit
+   98  cd /fs/lustre/scratch/irivera
+   99  ssh -L 1234:localhost:1234 
+  100  ssh -L 0629:localhost:0629 
+  101  ssh -L 0629:localhost:0629 irivera@gw.cita.utoronto.ca
+  102  exit
+  103  ssh -L 0629:localhost:0629 cosmo7
+  104  ssh -L 0629:localhost:0629 cosmo6
+  105  ssh -L 0629:localhost:0629 cosmo7
+  106  exit
+  107  module load python/3.10.2
+  108  jupyter notebook --port=2005 --no-browser
+  109  /fs/lustre/scratch/irivera
+  110  pwd
+  111  /fs/lustre/scratch/irivera
+  112  exit
+  113  /fs/lustre/scratch/irivera
+  114  exit
+  115  ssh -L 2005:localhost:2005 cosmo7
+  116  ssh -D 2400 irivera@cosmo7.cita.utoronto.ca
+  117  exit
+  118  module load python/3.10.2
+  119  jupyter notebook --port=2005 --no-browser
+  120  module load python/3.10.2
+  121  jupyter notebook --port=2005 --no-browser
+  122  exit
+  123  jupyter notebook --port=2005 --no-browser
+  124  module load python/3.10.2
+  125  jupyter notebook --port=2005 --no-browser
+  126  ssh -L 2005:localhost:2005 cosmo7
+  127  exit
+  128  ssh -L 2005:localhost:2005 cosmo7
+  129  ssh -L 0629:localhost:0629 irivera@gw.cita.utoronto.ca
+  130  module load python/3.10.2
+  131  jupyter notebook --port=0629 --no-browser
+  132  exit
+  133  cd Desktop
+  134  pwd
+  135  cd CTA200_2026
+  136  cd /fs/lustre/scratch/irivera
+  137  pwd
+  138  ls
+  139  cd CTA_2026
+  140  ls
+  141  mkdir CTA200_2026
+  142  mkdir assignment_1
+  143  touch README.md
+  144  vi README.md
+  145  pwd
+  146  ls
+  147  cd CTA200_2026
+  148  ls
+  149  pwd
+  150  mv ~/Desktop/assignment_1 ~/Desktop/CTA200_2026/
+  151  mv ~/Desktop/README.md ~/Desktop/CTA200_2026/assignment_1/
+  152  cd ~/Desktop/CTA200_2026/assignment_1
+  153  ls
+  154  pwd
+  155  ls
+  156  touch Hello_world.c
+  157  touch Hello_world.py
+  158  mv Hello_world.c Hello_world_Rivera.c
+  159  mv Hello_world.py Hello_world_Rivera.py
+  160  ls
+  161  module load gcc
+  162  gcc Hello_world_Rivera.c -o Hello_world.x
+  163  nano Hello_world_Rivera.c
+  164  gcc Hello_world_Rivera.c -o Hello_world.x
+  165  ./Hello_world.x
+  166  python3 Hello_world_Rivera.py
+  167  nano Hello_world.x
+  168  nano Hello_world_Rivera.py
+  169  python3 Hello_world_Rivera.py
+  170  vi Hello_world_Rivera.py
+  171  vi Hello_world_Rivera.c
+  172  vi Hello_world_Rivera.py
+  173  python3 Hello_world_Rivera.py
+  174  vi Hello_world_Rivera.c
+  175  python3 Hello_world_Rivera.py
+  176  vi Hello_world_Rivera.py
+  177  python3 Hello_world_Rivera.py
+  178  ./Hello_world.x
+  179  gcc Hello_world_Rivera.c -o Hello_world.x
+  180  ./Hello_world.x
+  181  ./Hello_world.x > output_c.txt
+  182  python3 Hello_world_Rivera.py > output_python.txt
+  183  cat output_c.txt 
+  184  cat output_python.txt 
+  185  history > history.txt
+  186  ls
+  187  cat history.txt
+  188  ls
+  189  cd ~/Desktop/CTA200_2026
+  190  git init
+  191  git add assignment_1/README.md
+  192  git commit -m "Add README"
+  193  git add assignment_1/Hello_world_Rivera.c
+  194  git commit -m "Add Hello World C program"
+  195  git add assignment_1/Hello_world_Rivera.py
+  196  git commit -m "Add Hello World Python program"
+  197  git add assignment_1/output_c.txt
+  198  git commit -m "Add Output C Program"
+  199  git add assignment_1/output_python.txt
+  200  git commit -m "Add Output Python Program"
+  201  git add assignment_1/history.txt
+  202  git commit -m "Add History Text File"
+  203  git remote add origin https://github.com/isabellarivera-jpg/CTA200_2026.git
+  204  git push -u origin main
+  205  git push -u origin master
+  206  module load python/3.10.2
+  207  jupyter notebook --port=0629 --no-browser
+  208  jupyter notebook --port=2005 --no-browser
+  209  /cita/local/bin/passwd
+  210  exit
+  211  ssh irivera@gw.cita.utoronto.ca
+  212  ssh -L 2005:localhost:2005 irivera@gw.cita.utoronto.ca
+  213  module load python/3.10.2
+  214  ssh -L 0629:localhost:-0629 irivera@gw.cita.utoronto.ca
+  215  ssh -L 0629:localhost:0629 irivera@gw.cita.utoronto.ca
+  216  module load python/3.10.2
+  217  jupyter notebook --port=2005 --no-browser
+  218  jupyter notebook --port=0629 --no-browser
+  219  module load python/3.10.2
+  220  jupyter notebook --port=2222 --no-browser
+  221  module load python/3.10.2
+  222  jupyter notebook --port=2005 --no-browser
+  223  module load python/3.10.2
+  224  jupyter notebook --port=2347 --no-browser
+  225  ssh -L 1237:localhost:1237 irivera@gw.cita.utoronto.ca
+  226  exit
+  227  module load python/3.10.2
+  228  ssh cosmo7
+  229  exit
+  230  module load python/3.10.2
+  231  jupyter notebook --port=1237 --no-browser
+  232  exit
+  233  module load python/3.10.2
+  234  jupyter notebook --port=2003 --no-browser
+  235  exit
+  236  module load python/3.10.2
+  237  jupyter notebook --port=2003 --no-browser
+  238  exit
+  239  module load python/3.10.2
+  240  jupyter notebook --port=2003 --no-browser
+  241  git add assignment_2/assignmet.ipynb
+  242  ls
+  243  cd Desktop
+  244  cd CTA200_2026
+  245  ls
+  246  cd assignment_2
+  247  ls
+  248  exit
+  249  module load python/3.10.2
+  250  jupyter notebook --port=2005 --no-browser
+  251  module load python/3.10.2
+  252  jupyter notebook --port=1237 --no-browser
+  253  ls
+  254  cd Desktop
+  255  cd CTA200_2026/
+  256  ls
+  257  git add assignment_2/assignment.ipynb
+  258  git commit -m "Add assignment 2"
+  259  git push
+  260  ls
+  261  git add assignment_2/assignment.ipynb
+  262  git commit -m "Add assignment 2 again but now its better"
+  263  git push
+  264  module load python/3.10.2
+  265  jupyter notebook --port=2003 --no-browser
+  266  module load python/3.10.2
+  267  jupyter notebook --port=2003 --no-browser
+  268  exit
+  269  /fs/lustre/scratch/irivera
+  270  exit
+  271  cd murray
+  272  cd /murray
+  273  ls
+  274  /fs/lustre/scratch/murray
+  275  ls
+  276  cd /home/murray/Papers/tmp
+  277  ls
+  278  cd /home/murray/tmp
+  279  ls
+  280  vi Hello_world.py
+  281  cd /home/murray
+  282  find -name "Hello_world.c" -o -name "Hello_world.py"
+  283  history > history.txt
+  284  ls
+  285  pwd
+  286  exit
+  287  pwd
+  288  ls
+  289  cd CTA200H
+  290  ls
+  291  cd assignments
+  292  ls
+  293  exit
+  294  ls
+  295  cd Desktop
+  296  ls
+  297  cd CTA200_2026
+  298  ls
+  299  cd assignment_1
+  300  ls
+  301  exit
+  302  ls
+  303  cd Desktop
+  304  ls
+  305  cd CTA200_2026
+  306  ls
+  307  mvdir assignment_1 assignment_1_badcopy
+  308  ls
+  309  mv assignment_1 assignment_1_badcopy
+  310  ls
+  311  mkdir assignment_1
+  312  ls
+  313  cd assignment_1
+  314  ls
+  315  mv assignment_1_badcopy assignment_1
+  316  ls
+  317  pwd
+  318  rmdir -rm assignment_1
+  319  rmdir -r assignment_1
+  320  rmdir assignment_1
+  321  ls
+  322  pwd
+  323  cd ../.
+  324  pwd
+  325  rmdir assignment_1
+  326  ls
+  327  mv assignment_1_badcopy assignment_1
+  328  ls
+  329  cd assignment_1
+  330  ls
+  331  /home/murray
+  332  find /home/murray -name Hello_world.c
+  333  ls
+  334  pwd
+  335  cd /home/murray
+  336  ls
+  337  find /home/murray -name Hello_world.c
+  338  pwd
+  339  find -name "Hello_world.c"
+  340  find -name "Hello_world.py"
+  341  history > /home/irivera/Desktop/CTA200_2026/assignment_1/history2.txt
